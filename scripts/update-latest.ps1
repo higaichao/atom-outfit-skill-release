@@ -19,7 +19,7 @@ $manifest = [ordered]@{
   download_url = $DownloadUrl
   message = $Message
   updated_at = (Get-Date).ToString("yyyy-MM-dd")
-  manifest_url = "https://raw.githubusercontent.com/higaichao/atom-outfit-skill-release/main/latest.json"
+  manifest_url = "https://raw.githubusercontent.com/higaichao/atom-outfit-skill-release/master/latest.json"
 }
 
 $manifest | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $manifestPath -Encoding UTF8

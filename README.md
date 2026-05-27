@@ -5,7 +5,7 @@ This repository hosts the public update manifest for `Atom-服装生成`.
 Stable manifest URL:
 
 ```text
-https://raw.githubusercontent.com/higaichao/atom-outfit-skill-release/main/latest.json
+https://raw.githubusercontent.com/higaichao/atom-outfit-skill-release/master/latest.json
 ```
 
 SkillHub download page:
