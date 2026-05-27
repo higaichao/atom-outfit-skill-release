@@ -13,8 +13,10 @@ $ErrorActionPreference = "Stop"
 $repoRoot = Split-Path -Parent (Split-Path -Parent $PSCommandPath)
 $manifestPath = Join-Path $repoRoot "latest.json"
 
+$skillName = "Atom-$([char]0x670D)$([char]0x88C5)$([char]0x751F)$([char]0x6210)"
+
 $manifest = [ordered]@{
-  name = "Atom-服装生成"
+  name = $skillName
   latest_version = $Version
   download_url = $DownloadUrl
   message = $Message
